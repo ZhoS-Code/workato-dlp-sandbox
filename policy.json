@@ -1,0 +1,11 @@
+{
+  "version": "DEMO-1.0",
+  "status": "DEMO_NOT_COMPANY_APPROVED",
+  "max_bytes": 5242880,
+  "allow_extensions": [".csv", ".txt", ".json", ".pdf", ".docx", ".xlsx", ".pptx"],
+  "deny_patterns": [
+    {"id":"DEMO-KEY", "regex":"(?i)\\b(?:api[_ -]?key|secret[_ -]?key|password)\\s*[:=]\\s*[^\\s,;]{4,}"},
+    {"id":"DEMO-CLASSIFICATION", "regex":"(?i)\\b(?:STRICTLY CONFIDENTIAL|INTERNAL ONLY|DO NOT UPLOAD|RESTRICTED DATA)\\b"},
+    {"id":"DEMO-PII-ID", "regex":"(?i)\\b(?:nik|national id)\\s*[:=# -]*\\d{16}\\b"}
+  ]
+}

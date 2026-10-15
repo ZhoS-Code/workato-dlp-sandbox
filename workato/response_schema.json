@@ -1,0 +1,1 @@
+{"type":"object","properties":{"decision":{"type":"string","enum":["ALLOW","BLOCK"]},"file_name":{"type":"string"},"policy_version":{"type":"string"},"reason_code":{"type":"string"},"request_id":{"type":"string"},"matched_rule_ids":{"type":"array","items":{"type":"string"}}},"required":["decision","file_name","policy_version","reason_code","request_id"]}

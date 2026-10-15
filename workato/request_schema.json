@@ -1,0 +1,1 @@
+{"type":"object","properties":{"file_name":{"type":"string"},"file_base64":{"type":"string"},"request_id":{"type":"string"}},"required":["file_name","file_base64","request_id"]}
